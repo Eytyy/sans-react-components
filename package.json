@@ -48,9 +48,10 @@
     "@emotion/styled": "^10.0.27",
     "core-js": "^3.3.4",
     "prop-types": "^15.7.2",
-    "react": "^16.11.0",
+    "react": "^16.13.1",
     "react-dom": "npm:@hot-loader/react-dom",
-    "react-hot-loader": "^4.12.15"
+    "react-hot-loader": "^4.12.15",
+    "react-router-dom": "^5.2.0"
   },
   "repository": {
     "type": "git",

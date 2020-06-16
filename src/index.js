@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-import Layout from './Layout'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Layout from './layout'
 import DefaultErrorBoundry from './DefaultErrorBoundry'
 
 if (process.env.Node_ENV === 'development') {
@@ -12,7 +12,9 @@ if (process.env.Node_ENV === 'development') {
 ReactDOM.render(
   <React.StrictMode>
     <DefaultErrorBoundry>
-      <Layout />
+      <Router>
+        <Layout />
+      </Router>
     </DefaultErrorBoundry>
   </React.StrictMode>,
   document.getElementById('app')

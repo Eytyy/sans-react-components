@@ -9,5 +9,9 @@ export const layout = {
 }
 
 export const colors = {
-  blue: '#4c00ff'
+  primary: {
+    blue: 'blue',
+    black: 'black',
+    purple: 'rebbecapurple'
+  }
 }
