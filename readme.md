@@ -1,6 +1,6 @@
-## React Project Boilerplate
+## Reusable React Components
 
-1. git clone --depth=1 git@github.com:Eytyy/reuse.git
+1. git clone --depth=1 git@github.com:Eytyy/sans-react-components.git
 2. rm -rf .git
 3. npm i
 4. git init
