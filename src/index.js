@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './App'
+import Layout from './Layout'
 import DefaultErrorBoundry from './DefaultErrorBoundry'
 
 if (process.env.Node_ENV === 'development') {
@@ -12,7 +12,7 @@ if (process.env.Node_ENV === 'development') {
 ReactDOM.render(
   <React.StrictMode>
     <DefaultErrorBoundry>
-      <App />
+      <Layout />
     </DefaultErrorBoundry>
   </React.StrictMode>,
   document.getElementById('app')

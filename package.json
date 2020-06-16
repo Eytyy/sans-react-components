@@ -30,6 +30,7 @@
     "eslint": "^6.6.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.9",
     "jest": "^24.9.0",
@@ -43,12 +44,13 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "core-js": "^3.3.4",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "npm:@hot-loader/react-dom",
-    "react-hot-loader": "^4.12.15",
-    "styled-components": "^4.4.0"
+    "react-hot-loader": "^4.12.15"
   },
   "repository": {
     "type": "git",
